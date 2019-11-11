@@ -1,1 +1,32 @@
-# UTWorkshopCPlusPlusGTest
+# GTestSample
+
+Google test is a framework for writing C++ unit tests. In this short post, I have explained how to set it up in Ubuntu.
+
+Start by installing the gtest development package:
+
+sudo apt-get install libgtest-dev
+
+Note that this package only install source files. You have to compile the code yourself to create the necessary library files. These source files should be located at /usr/src/gtest. Browse to this folder and use cmake to compile the library:
+
+sudo apt-get install cmake # install cmake
+
+cd /usr/src/gtest
+
+sudo cmake CMakeLists.txt
+
+sudo make
+
+ 
+#copy or symlink libgtest.a and libgtest_main.a to your /usr/lib folder
+
+sudo cp *.a /usr/lib
+
+**Above steps can be ignored for new cmake file**
+
+Compile and run the tests: 
+
+cmake CMakeLists.txt
+
+make
+
+./ParameterizedTestExamples
