@@ -29,4 +29,4 @@ cmake CMakeLists.txt
 
 make
 
-./ParameterizedTestExamples
+./runTests
