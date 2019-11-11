@@ -1,6 +1,6 @@
 # GTestSample
 
-Google test is a framework for writing C++ unit tests. In this short post, I have explained how to set it up in Ubuntu.
+Google test is a framework for writing C++ unit tests. In this short post, I have explained how to set it up in Ubuntu 18.04 LTS.
 
 Start by installing the gtest development package:
 
@@ -21,7 +21,7 @@ sudo make
 
 sudo cp *.a /usr/lib
 
-**Above steps can be ignored for new cmake file**
+
 
 Compile and run the tests: 
 
