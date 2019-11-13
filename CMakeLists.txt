@@ -49,10 +49,7 @@ include_directories(include)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(runTests test/main.cpp include/LeapYear.h
-        src/LeapYear.cpp test/LeapYearStandaloneTests.cpp
-        test/LeapYearFixtureTests.cpp test/LeapYearIterationTest.cpp
-        test/LeapYearParameterizedTestFixture.cpp test/LeapYearFixtureCombinedWithParameterizedTests.cpp
-        test/LeapYearMultipleParametersTests.cpp)
+        src/LeapYear.cpp test/LeapYearStandaloneTests.cpp)
 target_link_libraries(runTests ${GTEST_BOTH_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})
 add_test(NAME runTests COMMAND runTests)
 
