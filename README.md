@@ -34,10 +34,17 @@ make
 ## Generating Code Coverage Report
 
 Mkdir build
+
 Cd build
+
 cmake -DCMAKE_BUILD_TYPE=Coverage ..
+
 make
+
 ./runTests
+
 Cd ..
+
 lcov -t "result" -o coverage.info -c -d build/CMakeFiles/runTests.dir/
+
 genhtml -o res coverage.info
