@@ -1,0 +1,4 @@
+/data/home/apoongavanam/UTWorkShop/HarmanUniversity/UTWorkshopCPlusPlusGTest/build/CMakeFiles/edit_cache.dir
+/data/home/apoongavanam/UTWorkShop/HarmanUniversity/UTWorkshopCPlusPlusGTest/build/CMakeFiles/rebuild_cache.dir
+/data/home/apoongavanam/UTWorkShop/HarmanUniversity/UTWorkshopCPlusPlusGTest/build/CMakeFiles/test.dir
+/data/home/apoongavanam/UTWorkShop/HarmanUniversity/UTWorkshopCPlusPlusGTest/build/CMakeFiles/runTests.dir
